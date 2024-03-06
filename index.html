@@ -11,10 +11,10 @@
 
     <link rel="stylesheet" href="index.css">
 </head>
-<body  class="bg-[#232422] w-full p-0 m-0 poppins-regular" id="home">
-    <header class="fixed top-0 z-50  w-full bg-[#272826] border-b-[2px] border-[#414049] ">
-        <nav class="px-[40px] pb-[10px] pt-[30px] ">
-          <div class="max-w-sceen-xl flex flex-wrap items-center justify-between mx-auto px-4">
+<body  class="bg-[#232422]  poppins-regular " id="home">
+       <header class="fixed top-0 z-50  w-full bg-[#272826] border-b-[2px] border-[#414049] ">
+        <nav class="px-[40px] pb-[10px] pt-[30px]  border-[2px] border-blue-600">
+          <div class="max-w-sceen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">
             <a href="#" data-aos="fade-right" data-aos-duration="1000" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="logo.png" class="h-8 rounded-full" alt="Flowbite Logo" />
                 <span class="self-center text-2xl text-gray-50">Chandan</span>
@@ -53,9 +53,9 @@
         
     </header>
 
-    <main>
-        <section data-aos="zoom-in-up" data-aos-duration="1000" class="items-center md:min-h-screen " id="">
-              <!--Intro Start-->
+    <main class="min-w-screen "><!--Intro Start-->
+           <section data-aos="zoom-in-up" data-aos-duration="1000" class="items-center min-w-screen md:min-h-screen " id="">
+              
             <div class="items-center text-gray-100 sm:mx-[15%] pt-[150px] px-[20px] md:pt-[240px]">
                 
                 <p class="text-[24px] sm:text-[26px] md:text-[28px]">Hey, there i am <br><span class="text-[26px] sm:text-[30px]  text-blue-500 my-[10px]">Chandan Kumar</span></p>
@@ -68,8 +68,10 @@
             </div>
         </section>
               <!--Intro End-->
-        <section id="what i do" class="md:min-h-screen px-[10px] pt-[100px] md:pt-[200px]" >
+
               <!-- Work section start-->
+        <section id="what i do" class="md:min-h-screen px-[10px] pt-[100px] md:pt-[200px]" >
+              
             <div class="items-center text-gray-100 sm:mx-[6%] ">
                 <h2 class="sm:text-[26px] text-[22px] text-gray-100 font-bold "><span class="border-b-[3px] border-blue-500" >What</span> i do ?</h2>
                 <div class="grid grid-cols-1 md:gap-6 sm:grid-cols-2 mt-[30px] md:mt-[70px]">
@@ -98,11 +100,14 @@
 
                 </div>
             </div>
-            <!-- Work section End-->
-        </section>
+           
+        </section> <!-- Work section End-->
+
+
+         <!--   Education section start-->
         <section id="education" class="md:min-h-screen md:pt-[200px]">
-            <!--   Education section start-->
-              <div class="p-[15px] sm:mx-[5%]">
+           
+              <div class="p-[15px] m-[0px] sm:x-[5%]">
                 <h2 class="text-[22px] sm:text-[26px] text-gray-100 mb-[30px] md:mb-[70px] font-bold"><span class="border-b-[3px] border-blue-500" >Education</span> :</h2>
                 <div
                 class="flex flex-col md:grid grid-cols-9 m-auto p-2 text-blue-50 ">
@@ -110,7 +115,7 @@
                 <div class="flex flex-row-reverse md:contents">
                   <div
                     class="bg-[#313030] border-[2px] border-[#414049] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-                    data-aos="fade-right"
+                    data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <h3 class="font-semibold text-blue-500 text-md sm:text-lg mb-1">10th,H.P. Board</h3>
@@ -152,9 +157,10 @@
                 <div class="flex flex-row-reverse md:contents">
                   <div 
                     class="bg-[#313030] border-[2px] border-[#414049] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-                  data-aos="fade-left"
-                  
-                  data-aos-easing="ease-in-sine">
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <h3 class="font-semibold text-blue-500 text-md sm:text-lg mb-1">Diploma in Information Technology</h3>
                     <p  class="leading-tight text-justify  text-sm sm:text-md">
                       Pursuing diploma from Govt. Polytechnic Hamirpur (H.P.).
@@ -173,8 +179,8 @@
                 
               </div>
               </div>
-            <!--   Education section End-->
-         </section>   
+            
+         </section>   <!--   Education section End-->
          <section id="skills" class="md:min-h-screen md:pt-[200px]">
               <!--Expertise section start-->
                
