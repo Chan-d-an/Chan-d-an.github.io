@@ -43,7 +43,7 @@ function App() {
             So. Welcome.
           </h1>
           <p className=" my-[5px] md:my-[15px] text-[18px]  md:text-[22px] lg:text-[24px] xl:text-[26px] text-zinc-400 text-center">
-            Chandan's portfolio
+            Chandan&apos;s portfolio
           </p>
           <button className="my-[5px] md:my-[10px] flex items-center justify-center py-[5px] px-[10px] md:py-[8px] md:px-[15px] text-[12px] md:text-[18px] border-[2px] border-blue-500 text-blue-700  text-center mx-auto bg-blue-200  rounded-[10px]">
             Download CV
@@ -53,7 +53,7 @@ function App() {
       <div className="bg-[#101010]">
         <div className="bg-[#101010] mx-[4px] sm:mx-[26px] md:mx-[50px] lg:mx-[80px] min-h-screen brder-[#212121] rounded-[15px] sm:rounded-[22px] md:rounded-[30px] ">
           <h1 className="p-[8px] sm:p-[16px] md:p-[32px] lg:p-[40px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-zinc-300">
-            About
+            About 
           </h1>
 
           <div className="  p-[8px] sm:p-[16px] md:p-[32px] lg:p-[40px] border-zinc-600 border-[1px] rounded-[5px] sm:rounded-[10px] md:rounded-[15px] lg:rounded-[20px]">
@@ -909,7 +909,7 @@ function App() {
                                   Tailwind CSS for sleek, responsive design,
                                   Laravel for a powerful and efficient backend,
                                   and XAMPP for an easy-to-setup local
-                                  development environment. Whether you're
+                                  development environment. Whether you&apos;re
                                   looking for inspiration for your next
                                   adventure or planning a detailed itinerary,
                                   TravelHub is your go-to solution for all your
