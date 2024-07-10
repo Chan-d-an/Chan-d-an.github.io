@@ -45,116 +45,138 @@ function App() {
           <p className=" my-[5px] md:my-[15px] text-[18px]  md:text-[22px] lg:text-[24px] xl:text-[26px] text-zinc-400 text-center">
             Chandan&apos;s portfolio
           </p>
-          <button className="my-[5px] md:my-[10px] flex items-center justify-center py-[5px] px-[10px] md:py-[8px] md:px-[15px] text-[12px] md:text-[18px] border-[2px] border-blue-500 text-blue-700  text-center mx-auto bg-blue-200  rounded-[10px]">
-            Download CV asmdhngwmsagfdjshad
-          </button>
+          <a href="/public/resume.pdf" className="my-[5px] md:my-[10px] flex items-center justify-center py-[5px] px-[10px] md:py-[8px] md:px-[15px] text-[12px] md:text-[18px] border-[2px] border-blue-500 text-blue-700  text-center mx-auto bg-blue-200  rounded-[10px]">
+            Download CV 
+          </a>
         </div>
       </div>
       <div className="bg-[#101010]">
         <div className="bg-[#101010] mx-[4px] sm:mx-[26px] md:mx-[50px] lg:mx-[80px] min-h-screen brder-[#212121] rounded-[15px] sm:rounded-[22px] md:rounded-[30px] ">
           <h1 className="p-[8px] sm:p-[16px] md:p-[32px] lg:p-[40px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-zinc-300">
-            About 
+            About
           </h1>
 
-          <div className="  p-[8px] sm:p-[16px] md:p-[32px] lg:p-[40px] border-zinc-600 border-[1px] rounded-[5px] sm:rounded-[10px] md:rounded-[15px] lg:rounded-[20px]">
-            <div className="">
-              <div className=" sm:p-[25px] md:p-[35px] lg:p-[45px] xl:p-[55p5] w-full inline-block ">
-                <div className="my-[10px] w-full flex justify-end">
-                  <div className="flex items-end">
-                    <p className="leading-[20px] ml-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
-                      Hyy.
-                    </p>
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:ml-[10px] md:ml-[15px] ml-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                  </div>
+          <div className="p-[8px] sm:p-[16px] md:p-[32px] lg:p-[40px] border-zinc-600 border-[1px] rounded-[5px] sm:rounded-[10px] md:rounded-[15px] lg:rounded-[20px]">
+            <div className="w-full  p-[16px] rounded-[10px] shadow-lg">
+              <div className="my-[10px] w-full flex justify-end">
+                <div className="flex items-end">
+                  <p className="leading-[20px] ml-[10px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
+                    Hello! Thank you for this opportunity.
+                  </p>
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="ml-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
                 </div>
+              </div>
 
-                <div className="my-[10px] w-full flex">
-                  <div className="flex items-end">
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:mr-[10px] md:mr-[15px] mr-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                    <p className="leading-[20px] mr-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
-                      Hyy.
-                    </p>
-                  </div>
+              <div className="my-[10px] w-full flex">
+                <div className="flex items-end">
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="mr-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
+                  <p className="leading-[20px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
+                    Hi there! Can you start by telling me a bit about yourself?
+                  </p>
                 </div>
+              </div>
 
-                <div className="my-[10px] w-full flex justify-end">
-                  <div className="flex items-end">
-                    <p className="leading-[20px] ml-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
-                      Lorem, ipsum dolor.
-                    </p>
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:ml-[10px] md:ml-[15px] ml-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                  </div>
+              <div className="my-[10px] w-full flex justify-end">
+                <div className="flex items-end">
+                  <p className="leading-[20px] ml-[10px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
+                    Sure! I’m a recent graduate with a diploma in Information Technology. I’ve worked on several projects during my studies and I’m excited to start my career in development.
+                  </p>
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="ml-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
                 </div>
+              </div>
 
-                <div className="my-[10px] w-full flex">
-                  <div className="flex items-end">
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:mr-[10px] md:mr-[15px] mr-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                    <p className="leading-[20px] mr-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
-                      Lorem ipsum dolor sit amet Lorem, ipsum..
-                    </p>
-                  </div>
+              <div className="my-[10px] w-full flex">
+                <div className="flex items-end">
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="mr-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
+                  <p className="leading-[20px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
+                    That’s great to hear. What technologies are you most familiar with?
+                  </p>
                 </div>
+              </div>
 
-                <div className="my-[10px] w-full flex justify-end">
-                  <div className="flex items-end">
-                    <p className="leading-[20px] ml-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
-                      Lorem, ipsum Lorem ipsum dolor sit amet..
-                    </p>
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:ml-[10px] md:ml-[15px] ml-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                  </div>
+              <div className="my-[10px] w-full flex justify-end">
+                <div className="flex items-end">
+                  <p className="leading-[20px] ml-[10px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
+                    I’m comfortable with HTML, CSS, JavaScript, and have experience with React and Node.js.Php Laravel 
+                  </p>
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="ml-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
                 </div>
+              </div>
 
-                <div className="my-[10px] w-full flex">
-                  <div className="flex items-end">
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:mr-[10px] md:mr-[15px] mr-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                    <p className="leading-[20px] mr-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cupiditate error eum minima illo odio quos est porro
-                      iusto. Nemo, officiis! .
-                    </p>
-                  </div>
+              <div className="my-[10px] w-full flex">
+                <div className="flex items-end">
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="mr-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
+                  <p className="leading-[20px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
+                    That’s a solid foundation. Can you tell me about a challenging project you’ve worked on?
+                  </p>
                 </div>
+              </div>
 
-                <div className="my-[10px] w-full flex justify-end">
-                  <div className="flex items-end">
-                    <p className="leading-[20px] ml-[55px] text-[14px] md:text-[16px]  py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
-                      Lorem, ipsum dolor Lorem, ipsum dolor..
-                    </p>
-                    <img
-                      src="src/assets/avatar1.png"
-                      className="sm:ml-[10px] md:ml-[15px] ml-[5px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
-                      alt=""
-                    />
-                  </div>
+              <div className="my-[10px] w-full flex justify-end">
+                <div className="flex items-end">
+                  <p className="leading-[20px] ml-[10px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
+                    One challenging project was building a full-stack application with a tight deadline. I had to quickly learn new technologies and manage time effectively, but it was a great learning experience.
+                  </p>
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="ml-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
+                </div>
+              </div>
+
+              <div className="my-[10px] w-full flex">
+                <div className="flex items-end">
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="mr-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
+                  <p className="leading-[20px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-800 bg-[#ecebeb] font-[400] border-zinc-500 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-br-[10px] rounded-t-[10px]">
+                    Impressive! What are you looking for in your first job?
+                  </p>
+                </div>
+              </div>
+
+              <div className="my-[10px] w-full flex justify-end">
+                <div className="flex items-end">
+                  <p className="leading-[20px] ml-[10px] text-[14px] md:text-[16px] py-[5px] px-[10px] sm:px-[12px] sm:py-[7px] text-zinc-100 bg-blue-600 font-[400] border-zinc-700 border-[2px] max-w-[300px] w-auto min-w-[50px] rounded-bl-[10px] rounded-t-[10px]">
+                    I’m looking for opportunities to grow as a developer and work on interesting projects. I’m excited to contribute to a team and learn from experienced professionals.
+                  </p>
+                  <img
+                    src="src/assets/avatar1.png"
+                    className="ml-[10px] h-[40px] w-[40px] rounded-full border-[5px] border-zinc-700"
+                    alt="Avatar"
+                  />
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -262,6 +284,7 @@ function App() {
 
                 <div className="absolute w-full py-[5px] px-[10px]  bottom-0 bg-[rgba(0,0,0,0.7)]">
                   <div className=" w-full flex justify-between ">
+                    <a href="">
                     <svg
                       width="40px"
                       height="40px"
@@ -285,7 +308,7 @@ function App() {
                         <path d="M21.035 5.257c.91 1.092 1.364 2.366 1.364 3.822 0 5.277-3.002 6.824-5.823 7.279.364.637.455 1.365.455 2.093v3.73c0 .455-.273.728-.637.728a.718.718 0 0 1-.728-.728v-3.73a2.497 2.497 0 0 0-.728-2.093l.455-1.183c2.821-.364 5.733-1.274 5.733-6.187 0-1.183-.455-2.275-1.274-3.185l-.182-.727a4.04 4.04 0 0 0 .09-2.73c-.454.09-1.364.273-2.91 1.365l-.547.09a13.307 13.307 0 0 0-6.55 0l-.547-.09C7.57 2.71 6.66 2.437 6.204 2.437c-.273.91-.273 1.91.09 2.73l-.181.727c-.91.91-1.365 2.093-1.365 3.185 0 4.822 2.73 5.823 5.732 6.187l.364 1.183c-.546.546-.819 1.274-.728 2.002v3.821a.718.718 0 0 1-.728.728.718.718 0 0 1-.728-.728V20.18c-3.002.637-4.185-.91-5.095-2.092-.455-.546-.819-1.001-1.274-1.092-.09-.091-.364-.455-.273-.819.091-.364.455-.637.82-.455.91.182 1.455.91 2 1.547.82 1.092 1.639 2.092 4.095 1.547v-.364c-.09-.728.091-1.456.455-2.093-2.73-.546-5.914-2.093-5.914-7.279 0-1.456.455-2.73 1.365-3.822-.273-1.273-.182-2.638.273-3.73l.455-.364C5.749 1.073 7.023.8 9.66 2.437a13.673 13.673 0 0 1 6.642 0C18.851.708 20.216.98 20.398 1.072l.455.364c.455 1.274.546 2.548.182 3.821z"></path>
                       </g>
                     </svg>
-
+                    </a>
                     <button
                       data-modal-target="default-modal"
                       data-modal-toggle="default-modal"
