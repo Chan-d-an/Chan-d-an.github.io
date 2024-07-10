@@ -46,7 +46,7 @@ function App() {
             Chandan&apos;s portfolio
           </p>
           <button className="my-[5px] md:my-[10px] flex items-center justify-center py-[5px] px-[10px] md:py-[8px] md:px-[15px] text-[12px] md:text-[18px] border-[2px] border-blue-500 text-blue-700  text-center mx-auto bg-blue-200  rounded-[10px]">
-            Download CV
+            Download CV asmdhngwmsagfdjshad
           </button>
         </div>
       </div>
