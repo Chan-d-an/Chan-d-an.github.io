@@ -1,0 +1,15 @@
+{
+  "short_name": "ChandanApp",
+  "name": "Chandan's PWA App",
+  "start_url": "/CHAN-D-AN.GITHUB.IO/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/CHAN-D-AN.GITHUB.IO/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ]
+}
