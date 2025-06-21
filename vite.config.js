@@ -9,7 +9,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Chandan PWA',
+        name: 'Chandan App',
         short_name: 'Chandan',
         start_url: '/CHAN-D-AN.GITHUB.IO/',
         display: 'standalone',
