@@ -3,14 +3,15 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/CHAN-D-AN.GITHUB.IO/', // Important for GitHub Pages
+  base: '/CHAN-D-AN.GITHUB.IO/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      manifestFilename: 'manifest.webmanifest',
       manifest: {
         name: 'Chandan PWA App',
-        short_name: 'ChandanApp',
+        short_name: 'Chandan',
         start_url: '/CHAN-D-AN.GITHUB.IO/',
         display: 'standalone',
         background_color: '#ffffff',
