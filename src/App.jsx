@@ -78,7 +78,7 @@ function App() {
             So. Welcome.
           </h1>
           <p className=" my-[5px] md:my-[15px] text-[18px]  md:text-[22px] lg:text-[24px] xl:text-[26px] text-zinc-400 text-center">
-            Chanda Sharma&apos;s portfolio
+            Chandann Sharma&apos;s portfolio
           </p>
           <a href="/public/Chandan_Resume.pdf" className="my-[5px] md:my-[10px] flex items-center justify-center py-[5px] px-[10px] md:py-[8px] md:px-[15px] text-[12px] md:text-[18px] border-[2px] border-blue-500 text-blue-700  text-center mx-auto bg-blue-200  rounded-[10px]">
             Download CV
