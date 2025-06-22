@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/CHAN-D-AN.GITHUB.IO/sw.js', { scope: '/CHAN-D-AN.GITHUB.IO/' })})}
